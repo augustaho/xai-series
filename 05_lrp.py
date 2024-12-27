@@ -16,8 +16,8 @@ device = torch.device("cuda:0")
 
 
 # %% Load data
-TRAIN_ROOT = "data/brain-mri-dataset/training"
-TEST_ROOT = "data/brain-mri-dataset/testing"
+TRAIN_ROOT = "data/brain_mri/Training"
+TEST_ROOT = "data/brain_mri/Testing"
 train_dataset = torchvision.datasets.ImageFolder(root=TRAIN_ROOT)
 test_dataset = torchvision.datasets.ImageFolder(root=TRAIN_ROOT)
 
